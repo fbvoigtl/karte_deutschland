@@ -2,6 +2,9 @@ app:
   title: Karte Deutschland
 map:
   zoomTo: Zoom auf {{city}}
+  minPopulation: Mind. Einwohner
   cities:
     muenster: Münster
     berlin: Berlin
+cities:
+  heading: Städte ({{count}})

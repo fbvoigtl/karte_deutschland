@@ -11,9 +11,8 @@ import Feature from 'ol/Feature';
 import Point from 'ol/geom/Point';
 import { Style, Circle as CircleStyle, Fill, Stroke } from 'ol/style';
 import { fromLonLat } from 'ol/proj';
-import { getGermanCities } from '../api/germanCities.js';
 
-const CITIES = [
+const QUICK_CITIES = [
   { key: 'muenster', lonLat: [7.6261, 51.9607] },
   { key: 'berlin', lonLat: [13.405, 52.52] },
 ];
@@ -29,7 +28,7 @@ const cityStyle = (feature) =>
     }),
   });
 
-export default function MapView() {
+export default function MapView({ cities, zoomTarget }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const citiesSourceRef = useRef(null);
@@ -63,7 +62,7 @@ export default function MapView() {
   useEffect(() => {
     const source = citiesSourceRef.current;
     if (!source) return;
-    const features = getGermanCities({ minPopulation: 50000 }).map(
+    const features = cities.map(
       (c) =>
         new Feature({
           geometry: new Point(fromLonLat([c.lon, c.lat])),
@@ -73,7 +72,18 @@ export default function MapView() {
     );
     source.clear();
     source.addFeatures(features);
-  }, []);
+  }, [cities]);
+
+  useEffect(() => {
+    if (!zoomTarget) return;
+    const view = mapRef.current?.getView();
+    if (!view) return;
+    view.animate({
+      center: fromLonLat([zoomTarget.lon, zoomTarget.lat]),
+      zoom: zoomTarget.zoom ?? 11,
+      duration: 800,
+    });
+  }, [zoomTarget]);
 
   const zoomTo = (lonLat) => {
     const view = mapRef.current?.getView();
@@ -96,7 +106,7 @@ export default function MapView() {
         align="stretch"
         zIndex={1}
       >
-        {CITIES.map((city) => (
+        {QUICK_CITIES.map((city) => (
           <Button
             key={city.key}
             size="sm"

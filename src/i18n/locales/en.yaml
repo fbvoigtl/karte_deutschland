@@ -2,6 +2,9 @@ app:
   title: Map of Germany
 map:
   zoomTo: Zoom to {{city}}
+  minPopulation: Min. population
   cities:
     muenster: Münster
     berlin: Berlin
+cities:
+  heading: Cities ({{count}})
