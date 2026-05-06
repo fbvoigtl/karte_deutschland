@@ -4,9 +4,10 @@ import { useTranslation } from 'react-i18next';
 import Map from 'ol/Map';
 import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
+import ImageLayer from 'ol/layer/Image';
 import VectorLayer from 'ol/layer/Vector';
 import OSM from 'ol/source/OSM';
-import TileWMS from 'ol/source/TileWMS';
+import ImageWMS from 'ol/source/ImageWMS';
 import VectorSource from 'ol/source/Vector';
 import Feature from 'ol/Feature';
 import Point from 'ol/geom/Point';
@@ -42,8 +43,8 @@ export default function MapView({ cities, zoomTarget, showPopulationGrid }) {
     const citiesSource = new VectorSource();
     citiesSourceRef.current = citiesSource;
 
-    const popGridLayer = new TileLayer({
-      source: new TileWMS({
+    const popGridLayer = new ImageLayer({
+      source: new ImageWMS({
         url: 'https://gisco-services.ec.europa.eu/maps/wms',
         params: {
           LAYERS: 'PopulationGrid2021',
@@ -52,6 +53,7 @@ export default function MapView({ cities, zoomTarget, showPopulationGrid }) {
           TRANSPARENT: true,
         },
         attributions: '© European Commission – GISCO',
+        ratio: 1,
       }),
       visible: false,
       opacity: 0.75,
