@@ -1,0 +1,7 @@
+app:
+  title: Map of Germany
+map:
+  zoomTo: Zoom to {{city}}
+  cities:
+    muenster: Münster
+    berlin: Berlin

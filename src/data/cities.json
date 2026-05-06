@@ -1,0 +1,1511 @@
+{
+  "generatedAt": "2026-05-05T15:49:08.697Z",
+  "source": "https://overpass-api.de/api/interpreter",
+  "minPopulation": 50000,
+  "cities": [
+    {
+      "id": 240109189,
+      "name": "Berlin",
+      "nameEn": "Berlin",
+      "population": 3769962,
+      "lat": 52.5173885,
+      "lon": 13.3951309
+    },
+    {
+      "id": 20833623,
+      "name": "Hamburg",
+      "nameEn": "Hamburg",
+      "population": 1862565,
+      "lat": 53.5501721,
+      "lon": 10.0013165
+    },
+    {
+      "id": 1700534808,
+      "name": "München",
+      "nameEn": "Munich",
+      "population": 1484226,
+      "lat": 48.1371079,
+      "lon": 11.5753822
+    },
+    {
+      "id": 20953083,
+      "name": "Köln",
+      "nameEn": "Cologne",
+      "population": 1069200,
+      "lat": 50.938361,
+      "lon": 6.959974
+    },
+    {
+      "id": 27418664,
+      "name": "Frankfurt am Main",
+      "nameEn": "Frankfurt",
+      "population": 701350,
+      "lat": 50.1106444,
+      "lon": 8.6820917
+    },
+    {
+      "id": 240126753,
+      "name": "Düsseldorf",
+      "nameEn": "Dusseldorf",
+      "population": 653253,
+      "lat": 51.2254018,
+      "lon": 6.7763137
+    },
+    {
+      "id": 21687149,
+      "name": "Leipzig",
+      "nameEn": "Leipzig",
+      "population": 628718,
+      "lat": 51.3406321,
+      "lon": 12.3747329
+    },
+    {
+      "id": 1674026139,
+      "name": "Stuttgart",
+      "nameEn": "Stuttgart",
+      "population": 613392,
+      "lat": 48.7784485,
+      "lon": 9.1800132
+    },
+    {
+      "id": 25293125,
+      "name": "Dortmund",
+      "nameEn": "Dortmund",
+      "population": 600933,
+      "lat": 51.5142273,
+      "lon": 7.4652789
+    },
+    {
+      "id": 20833613,
+      "name": "Dresden",
+      "nameEn": "Dresden",
+      "population": 572240,
+      "lat": 51.0493286,
+      "lon": 13.7381437
+    },
+    {
+      "id": 27350363,
+      "name": "Essen",
+      "nameEn": "Essen",
+      "population": 569884,
+      "lat": 51.4582235,
+      "lon": 7.0158171
+    },
+    {
+      "id": 1651888734,
+      "name": "Hannover",
+      "nameEn": "Hanover",
+      "population": 555372,
+      "lat": 52.3744779,
+      "lon": 9.7385532
+    },
+    {
+      "id": 20982927,
+      "name": "Bremen",
+      "nameEn": "Bremen",
+      "population": 551415,
+      "lat": 53.0758196,
+      "lon": 8.8071646
+    },
+    {
+      "id": 1569338041,
+      "name": "Nürnberg",
+      "nameEn": "Nuremberg",
+      "population": 526091,
+      "lat": 49.453872,
+      "lon": 11.077298
+    },
+    {
+      "id": 240055326,
+      "name": "Duisburg",
+      "nameEn": "Duisburg",
+      "population": 486855,
+      "lat": 51.434999,
+      "lon": 6.759562
+    },
+    {
+      "id": 240099833,
+      "name": "Bochum",
+      "nameEn": "Bochum",
+      "population": 371075,
+      "lat": 51.4818111,
+      "lon": 7.2196635
+    },
+    {
+      "id": 240090728,
+      "name": "Wuppertal",
+      "nameEn": "Wuppertal",
+      "population": 361077,
+      "lat": 51.264018,
+      "lon": 7.1780374
+    },
+    {
+      "id": 26373169,
+      "name": "Bonn",
+      "nameEn": "Bonn",
+      "population": 335913,
+      "lat": 50.7352621,
+      "lon": 7.1024635
+    },
+    {
+      "id": 240037709,
+      "name": "Bielefeld",
+      "nameEn": "Bielefeld",
+      "population": 328864,
+      "lat": 52.0191005,
+      "lon": 8.531007
+    },
+    {
+      "id": 273510436,
+      "name": "Münster",
+      "nameEn": "Münster",
+      "population": 314332,
+      "lat": 51.9625101,
+      "lon": 7.6251879
+    },
+    {
+      "id": 240060919,
+      "name": "Mannheim",
+      "nameEn": "Mannheim",
+      "population": 310000,
+      "lat": 49.4892913,
+      "lon": 8.4673098
+    },
+    {
+      "id": 1559853166,
+      "name": "Augsburg",
+      "nameEn": "Augsburg",
+      "population": 301033,
+      "lat": 48.3690341,
+      "lon": 10.8979522
+    },
+    {
+      "id": 240028377,
+      "name": "Wiesbaden",
+      "nameEn": "Wiesbaden",
+      "population": 299946,
+      "lat": 50.0820384,
+      "lon": 8.2416556
+    },
+    {
+      "id": 240120582,
+      "name": "Karlsruhe",
+      "nameEn": "Karlsruhe",
+      "population": 283959,
+      "lat": 49.0068705,
+      "lon": 8.4034195
+    },
+    {
+      "id": 240052693,
+      "name": "Gelsenkirchen",
+      "nameEn": "Gelsenkirchen",
+      "population": 260368,
+      "lat": 51.5110321,
+      "lon": 7.0960124
+    },
+    {
+      "id": 240062631,
+      "name": "Mönchengladbach",
+      "nameEn": "Mönchengladbach",
+      "population": 255430,
+      "lat": 51.1947131,
+      "lon": 6.4353792
+    },
+    {
+      "id": 30137197,
+      "name": "Braunschweig",
+      "nameEn": "Brunswick",
+      "population": 248023,
+      "lat": 52.2646577,
+      "lon": 10.5236066
+    },
+    {
+      "id": 24487450,
+      "name": "Kiel",
+      "nameEn": "Kiel",
+      "population": 246306,
+      "lat": 54.3227085,
+      "lon": 10.135555
+    },
+    {
+      "id": 33997995,
+      "name": "Magdeburg",
+      "nameEn": "Magdeburg",
+      "population": 244329,
+      "lat": 52.1314783,
+      "lon": 11.6400789
+    },
+    {
+      "id": 20830918,
+      "name": "Chemnitz",
+      "nameEn": "Chemnitz",
+      "population": 243089,
+      "lat": 50.8323531,
+      "lon": 12.918914
+    },
+    {
+      "id": 240041315,
+      "name": "Aachen",
+      "nameEn": "Aachen",
+      "population": 241683,
+      "lat": 50.776351,
+      "lon": 6.083862
+    },
+    {
+      "id": 1667005776,
+      "name": "Halle (Saale)",
+      "nameEn": "Halle (Saale)",
+      "population": 231565,
+      "lat": 51.4824354,
+      "lon": 11.9712985
+    },
+    {
+      "id": 240116263,
+      "name": "Mainz",
+      "nameEn": "Mainz",
+      "population": 227277,
+      "lat": 49.9995205,
+      "lon": 8.2736253
+    },
+    {
+      "id": 240048753,
+      "name": "Krefeld",
+      "nameEn": "Krefeld",
+      "population": 222058,
+      "lat": 51.3331205,
+      "lon": 6.5623343
+    },
+    {
+      "id": 240092010,
+      "name": "Freiburg im Breisgau",
+      "nameEn": "Freiburg im Breisgau",
+      "population": 220286,
+      "lat": 47.9960901,
+      "lon": 7.8494005
+    },
+    {
+      "id": 240038130,
+      "name": "Erfurt",
+      "nameEn": "Erfurt",
+      "population": 213332,
+      "lat": 50.9777974,
+      "lon": 11.0287364
+    },
+    {
+      "id": 25327151,
+      "name": "Lübeck",
+      "nameEn": "Lübeck",
+      "population": 212958,
+      "lat": 53.866444,
+      "lon": 10.684738
+    },
+    {
+      "id": 1613672847,
+      "name": "Oberhausen",
+      "nameEn": "Oberhausen",
+      "population": 209292,
+      "lat": 51.4696137,
+      "lon": 6.8514435
+    },
+    {
+      "id": 1684321651,
+      "name": "Rostock",
+      "nameEn": "Rostock",
+      "population": 207830,
+      "lat": 54.0886707,
+      "lon": 12.1400211
+    },
+    {
+      "id": 1583294719,
+      "name": "Kassel",
+      "nameEn": "Kassel",
+      "population": 204021,
+      "lat": 51.3157833,
+      "lon": 9.4978479
+    },
+    {
+      "id": 240110547,
+      "name": "Hagen",
+      "nameEn": "Hagen",
+      "population": 186000,
+      "lat": 51.3582945,
+      "lon": 7.473296
+    },
+    {
+      "id": 1695218178,
+      "name": "Potsdam",
+      "nameEn": "Potsdam",
+      "population": 178089,
+      "lat": 52.4009309,
+      "lon": 13.0591397
+    },
+    {
+      "id": 1530957491,
+      "name": "Saarbrücken",
+      "nameEn": "Saarbrücken",
+      "population": 177201,
+      "lat": 49.234362,
+      "lon": 6.996379
+    },
+    {
+      "id": 2069498986,
+      "name": "Hamm",
+      "nameEn": "Hamm",
+      "population": 176048,
+      "lat": 51.681281,
+      "lon": 7.8191185
+    },
+    {
+      "id": 240056905,
+      "name": "Osnabrück",
+      "nameEn": "Osnabrück",
+      "population": 167730,
+      "lat": 52.2719595,
+      "lon": 8.047635
+    },
+    {
+      "id": 1575668118,
+      "name": "Mülheim an der Ruhr",
+      "nameEn": "Mülheim an der Ruhr",
+      "population": 167108,
+      "lat": 51.4272925,
+      "lon": 6.8829192
+    },
+    {
+      "id": 240072888,
+      "name": "Solingen",
+      "nameEn": "Solingen",
+      "population": 164205,
+      "lat": 51.1721629,
+      "lon": 7.0845893
+    },
+    {
+      "id": 277023297,
+      "name": "Oldenburg",
+      "nameEn": "Oldenburg",
+      "population": 163830,
+      "lat": 53.1389753,
+      "lon": 8.2146017
+    },
+    {
+      "id": 240125892,
+      "name": "Ludwigshafen am Rhein",
+      "nameEn": "Ludwigshafen am Rhein",
+      "population": 163340,
+      "lat": 49.4704113,
+      "lon": 8.4381568
+    },
+    {
+      "id": 1651889631,
+      "name": "Leverkusen",
+      "nameEn": "Leverkusen",
+      "population": 160819,
+      "lat": 51.0324743,
+      "lon": 6.9881194
+    },
+    {
+      "id": 240074718,
+      "name": "Darmstadt",
+      "nameEn": "Darmstadt",
+      "population": 159631,
+      "lat": 49.872775,
+      "lon": 8.651177
+    },
+    {
+      "id": 29774529,
+      "name": "Neuss",
+      "nameEn": "Neuss",
+      "population": 159122,
+      "lat": 51.1981778,
+      "lon": 6.6916476
+    },
+    {
+      "id": 21315295,
+      "name": "Herne",
+      "nameEn": "Herne",
+      "population": 156449,
+      "lat": 51.5380394,
+      "lon": 7.219985
+    },
+    {
+      "id": 240052046,
+      "name": "Bad Bramstedt",
+      "nameEn": "Bad Bramstedt",
+      "population": 154390,
+      "lat": 53.9167,
+      "lon": 9.88333
+    },
+    {
+      "id": 240058050,
+      "name": "Heidelberg",
+      "nameEn": "Heidelberg",
+      "population": 152113,
+      "lat": 49.4093582,
+      "lon": 8.694724
+    },
+    {
+      "id": 240114473,
+      "name": "Paderborn",
+      "nameEn": "Paderborn",
+      "population": 151633,
+      "lat": 51.7177044,
+      "lon": 8.752653
+    },
+    {
+      "id": 240120926,
+      "name": "Regensburg",
+      "nameEn": "Regensburg",
+      "population": 145000,
+      "lat": 49.0195333,
+      "lon": 12.0974869
+    },
+    {
+      "id": 240072040,
+      "name": "Offenbach am Main",
+      "nameEn": "Offenbach am Main",
+      "population": 136824,
+      "lat": 50.1055002,
+      "lon": 8.7610698
+    },
+    {
+      "id": 1674619101,
+      "name": "Göttingen",
+      "nameEn": "Göttingen",
+      "population": 135887,
+      "lat": 51.5328328,
+      "lon": 9.9351811
+    },
+    {
+      "id": 1602111978,
+      "name": "Fürth",
+      "nameEn": "Fürth",
+      "population": 135082,
+      "lat": 49.4772475,
+      "lon": 10.9893626
+    },
+    {
+      "id": 26769661,
+      "name": "Heilbronn",
+      "nameEn": "Heilbronn",
+      "population": 131653,
+      "lat": 49.142291,
+      "lon": 9.218655
+    },
+    {
+      "id": 2110382406,
+      "name": "Ingolstadt",
+      "nameEn": "Ingolstadt",
+      "population": 127886,
+      "lat": 48.7630165,
+      "lon": 11.4250395
+    },
+    {
+      "id": 25738881,
+      "name": "Würzburg",
+      "nameEn": "Würzburg",
+      "population": 124700,
+      "lat": 49.7933723,
+      "lon": 9.9309779
+    },
+    {
+      "id": 31172722,
+      "name": "Wolfsburg",
+      "nameEn": "Wolfsburg",
+      "population": 122457,
+      "lat": 52.4205588,
+      "lon": 10.7861682
+    },
+    {
+      "id": 1699831958,
+      "name": "Ulm",
+      "nameEn": "Ulm",
+      "population": 121648,
+      "lat": 48.3984968,
+      "lon": 9.9912458
+    },
+    {
+      "id": 17193023,
+      "name": "Erlangen",
+      "nameEn": "Erlangen",
+      "population": 120028,
+      "lat": 49.5977469,
+      "lon": 11.0037372
+    },
+    {
+      "id": 240046032,
+      "name": "Pforzheim",
+      "nameEn": "Pforzheim",
+      "population": 117754,
+      "lat": 48.890934,
+      "lon": 8.7025509
+    },
+    {
+      "id": 660314734,
+      "name": "Bremerhaven",
+      "nameEn": "Bremerhaven",
+      "population": 117281,
+      "lat": 53.5505392,
+      "lon": 8.5851945
+    },
+    {
+      "id": 240063145,
+      "name": "Remscheid",
+      "nameEn": "Remscheid",
+      "population": 116827,
+      "lat": 51.1798706,
+      "lon": 7.1943544
+    },
+    {
+      "id": 240026265,
+      "name": "Bottrop",
+      "nameEn": "Bottrop",
+      "population": 116055,
+      "lat": 51.521581,
+      "lon": 6.929204
+    },
+    {
+      "id": 30319497,
+      "name": "Recklinghausen",
+      "nameEn": "Recklinghausen",
+      "population": 115320,
+      "lat": 51.6143815,
+      "lon": 7.1978546
+    },
+    {
+      "id": 31985630,
+      "name": "Reutlingen",
+      "nameEn": "Reutlingen",
+      "population": 112099,
+      "lat": 48.4919508,
+      "lon": 9.2114144
+    },
+    {
+      "id": 240090160,
+      "name": "Jena",
+      "nameEn": "Jena",
+      "population": 111343,
+      "lat": 50.9281717,
+      "lon": 11.5879359
+    },
+    {
+      "id": 240102654,
+      "name": "Koblenz",
+      "nameEn": "Koblenz",
+      "population": 110643,
+      "lat": 50.3533278,
+      "lon": 7.5943951
+    },
+    {
+      "id": 29923357,
+      "name": "Bergisch Gladbach",
+      "nameEn": "Bergisch Gladbach",
+      "population": 109425,
+      "lat": 50.9929303,
+      "lon": 7.1277379
+    },
+    {
+      "id": 31941291,
+      "name": "Trier",
+      "nameEn": "Trier",
+      "population": 107233,
+      "lat": 49.7596208,
+      "lon": 6.6441878
+    },
+    {
+      "id": 25763730,
+      "name": "Moers",
+      "nameEn": "Moers",
+      "population": 105102,
+      "lat": 51.451283,
+      "lon": 6.62843
+    },
+    {
+      "id": 129992313,
+      "name": "Salzgitter",
+      "nameEn": "Salzgitter",
+      "population": 103694,
+      "lat": 52.1503721,
+      "lon": 10.3593147
+    },
+    {
+      "id": 304997397,
+      "name": "Gütersloh",
+      "nameEn": "Gütersloh",
+      "population": 103603,
+      "lat": 51.9063997,
+      "lon": 8.3782078
+    },
+    {
+      "id": 1675861081,
+      "name": "Hanau",
+      "nameEn": "Hanau",
+      "population": 101364,
+      "lat": 50.132881,
+      "lon": 8.9169797
+    },
+    {
+      "id": 29063084,
+      "name": "Siegen",
+      "nameEn": "Siegen",
+      "population": 99403,
+      "lat": 50.8751175,
+      "lon": 8.0256131
+    },
+    {
+      "id": 240033839,
+      "name": "Flensburg",
+      "nameEn": "Flensburg",
+      "population": 99307,
+      "lat": 54.7833021,
+      "lon": 9.4333264
+    },
+    {
+      "id": 1628927045,
+      "name": "Cottbus",
+      "nameEn": "Cottbus - Chóśebuz",
+      "population": 98693,
+      "lat": 51.7567447,
+      "lon": 14.3357307
+    },
+    {
+      "id": 21993086,
+      "name": "Schwerin",
+      "nameEn": "Schwerin",
+      "population": 98596,
+      "lat": 53.6288297,
+      "lon": 11.4148038
+    },
+    {
+      "id": 18318938,
+      "name": "Hildesheim",
+      "nameEn": "Hildesheim",
+      "population": 98510,
+      "lat": 52.1527188,
+      "lon": 9.9518083
+    },
+    {
+      "id": 258398514,
+      "name": "Witten",
+      "nameEn": "Witten",
+      "population": 97986,
+      "lat": 51.4370171,
+      "lon": 7.335124
+    },
+    {
+      "id": 240093234,
+      "name": "Kaiserslautern",
+      "nameEn": "Kaiserslautern",
+      "population": 97162,
+      "lat": 49.4432174,
+      "lon": 7.7689951
+    },
+    {
+      "id": 240109193,
+      "name": "Iserlohn",
+      "nameEn": "Iserlohn",
+      "population": 94536,
+      "lat": 51.3746778,
+      "lon": 7.6999713
+    },
+    {
+      "id": 240093804,
+      "name": "Zwickau",
+      "nameEn": "Zwickau",
+      "population": 93128,
+      "lat": 50.7185043,
+      "lon": 12.4939267
+    },
+    {
+      "id": 240090170,
+      "name": "Gera",
+      "nameEn": "Gera",
+      "population": 93125,
+      "lat": 50.8765528,
+      "lon": 12.0832674
+    },
+    {
+      "id": 27441649,
+      "name": "Ratingen",
+      "nameEn": "Ratingen",
+      "population": 93099,
+      "lat": 51.2973261,
+      "lon": 6.8493503
+    },
+    {
+      "id": 13355228,
+      "name": "Esslingen am Neckar",
+      "nameEn": "Esslingen am Neckar",
+      "population": 92261,
+      "lat": 48.7427584,
+      "lon": 9.3071685
+    },
+    {
+      "id": 240087144,
+      "name": "Tübingen",
+      "nameEn": "Tübingen",
+      "population": 91239,
+      "lat": 48.5203263,
+      "lon": 9.053596
+    },
+    {
+      "id": 30894548,
+      "name": "Ludwigsburg",
+      "nameEn": "Ludwigsburg",
+      "population": 91116,
+      "lat": 48.8953937,
+      "lon": 9.1895147
+    },
+    {
+      "id": 21452708,
+      "name": "Lünen",
+      "nameEn": "Lünen",
+      "population": 90800,
+      "lat": 51.6142482,
+      "lon": 7.5228088
+    },
+    {
+      "id": 311044581,
+      "name": "Düren",
+      "nameEn": "Duren",
+      "population": 88953,
+      "lat": 50.8031684,
+      "lon": 6.4820806
+    },
+    {
+      "id": 240112249,
+      "name": "Worms",
+      "nameEn": "Worms",
+      "population": 86283,
+      "lat": 49.6302618,
+      "lon": 8.3620898
+    },
+    {
+      "id": 1636999091,
+      "name": "Konstanz",
+      "nameEn": "Constance",
+      "population": 85692,
+      "lat": 47.659216,
+      "lon": 9.1750718
+    },
+    {
+      "id": 1918903451,
+      "name": "Velbert",
+      "nameEn": "Velbert",
+      "population": 84579,
+      "lat": 51.3406713,
+      "lon": 7.0439912
+    },
+    {
+      "id": 240054393,
+      "name": "Marl",
+      "nameEn": "Marl",
+      "population": 83634,
+      "lat": 51.6485843,
+      "lon": 7.0829054
+    },
+    {
+      "id": 240105830,
+      "name": "Villingen-Schwenningen",
+      "nameEn": "Villingen-Schwenningen",
+      "population": 81128,
+      "lat": 48.063152,
+      "lon": 8.4929618
+    },
+    {
+      "id": 27453538,
+      "name": "Norderstedt",
+      "nameEn": "Norderstedt",
+      "population": 80420,
+      "lat": 53.7089898,
+      "lon": 9.9891914
+    },
+    {
+      "id": 240044967,
+      "name": "Minden",
+      "nameEn": "Minden",
+      "population": 79969,
+      "lat": 52.2881045,
+      "lon": 8.9168852
+    },
+    {
+      "id": 25076969,
+      "name": "Neumünster",
+      "nameEn": "Neumünster",
+      "population": 79197,
+      "lat": 54.0757442,
+      "lon": 9.9815377
+    },
+    {
+      "id": 36664855,
+      "name": "Troisdorf",
+      "nameEn": "Troisdorf",
+      "population": 79026,
+      "lat": 50.8153071,
+      "lon": 7.1593271
+    },
+    {
+      "id": 1583777951,
+      "name": "Dorsten",
+      "nameEn": "Dorsten",
+      "population": 77294,
+      "lat": 51.6604071,
+      "lon": 6.9647431
+    },
+    {
+      "id": 240098830,
+      "name": "Wilhelmshaven",
+      "nameEn": "Wilhelmshaven",
+      "population": 75728,
+      "lat": 53.5278793,
+      "lon": 8.106301
+    },
+    {
+      "id": 60573962,
+      "name": "Viersen",
+      "nameEn": "Viersen",
+      "population": 74941,
+      "lat": 51.2562118,
+      "lon": 6.3905476
+    },
+    {
+      "id": 240028160,
+      "name": "Lüneburg",
+      "nameEn": "Lüneburg",
+      "population": 74125,
+      "lat": 53.248706,
+      "lon": 10.407855
+    },
+    {
+      "id": 240081288,
+      "name": "Brandenburg an der Havel",
+      "nameEn": "Brandenburg an der Havel",
+      "population": 74113,
+      "lat": 52.4108261,
+      "lon": 12.5497933
+    },
+    {
+      "id": 240077210,
+      "name": "Delmenhorst",
+      "nameEn": "Delmenhorst",
+      "population": 74052,
+      "lat": 53.048095,
+      "lon": 8.6286066
+    },
+    {
+      "id": 1587464574,
+      "name": "Gladbeck",
+      "nameEn": "Gladbeck",
+      "population": 74011,
+      "lat": 51.5718665,
+      "lon": 6.9877343
+    },
+    {
+      "id": 228821181,
+      "name": "Castrop-Rauxel",
+      "nameEn": "Castrop-Rauxel",
+      "population": 73751,
+      "lat": 51.5646195,
+      "lon": 7.3106175
+    },
+    {
+      "id": 240091636,
+      "name": "Arnsberg",
+      "nameEn": "Arnsberg",
+      "population": 73501,
+      "lat": 51.4002384,
+      "lon": 8.0605908
+    },
+    {
+      "id": 32957196,
+      "name": "Rheine",
+      "nameEn": "Rheine",
+      "population": 73484,
+      "lat": 52.2797707,
+      "lon": 7.4373615
+    },
+    {
+      "id": 27429348,
+      "name": "Detmold",
+      "nameEn": "Detmold",
+      "population": 73449,
+      "lat": 51.936284,
+      "lon": 8.8791526
+    },
+    {
+      "id": 240053395,
+      "name": "Marburg",
+      "nameEn": "Marburg",
+      "population": 73125,
+      "lat": 50.8090106,
+      "lon": 8.7704695
+    },
+    {
+      "id": 58824601,
+      "name": "Lüdenscheid",
+      "nameEn": "Lüdenscheid",
+      "population": 72923,
+      "lat": 51.218137,
+      "lon": 7.6396975
+    },
+    {
+      "id": 1646638496,
+      "name": "Bamberg",
+      "nameEn": "Bamberg",
+      "population": 72821,
+      "lat": 49.8916044,
+      "lon": 10.8868478
+    },
+    {
+      "id": 240053773,
+      "name": "Landshut",
+      "nameEn": "Landshut",
+      "population": 72404,
+      "lat": 48.536217,
+      "lon": 12.1516551
+    },
+    {
+      "id": 21636385,
+      "name": "Bayreuth",
+      "nameEn": "Bayreuth",
+      "population": 72295,
+      "lat": 49.9446345,
+      "lon": 11.5743543
+    },
+    {
+      "id": 18481614,
+      "name": "Bocholt",
+      "nameEn": "Bocholt",
+      "population": 70856,
+      "lat": 51.8382715,
+      "lon": 6.6148669
+    },
+    {
+      "id": 27299841,
+      "name": "Celle",
+      "nameEn": "Celle",
+      "population": 69748,
+      "lat": 52.624056,
+      "lon": 10.081052
+    },
+    {
+      "id": 240052230,
+      "name": "Aalen",
+      "nameEn": "Aalen",
+      "population": 68816,
+      "lat": 48.8375607,
+      "lon": 10.0929593
+    },
+    {
+      "id": 240088844,
+      "name": "Fulda",
+      "nameEn": "Fulda",
+      "population": 67980,
+      "lat": 50.5514658,
+      "lon": 9.6762161
+    },
+    {
+      "id": 240047795,
+      "name": "Aschaffenburg",
+      "nameEn": "Aschaffenburg",
+      "population": 67844,
+      "lat": 49.9738133,
+      "lon": 9.1446665
+    },
+    {
+      "id": 240126519,
+      "name": "Kempten (Allgäu)",
+      "nameEn": "Kempten (Allgäu)",
+      "population": 67645,
+      "lat": 47.7267063,
+      "lon": 10.3168835
+    },
+    {
+      "id": 240061254,
+      "name": "Dessau",
+      "nameEn": "Dessau",
+      "population": 67304,
+      "lat": 51.8309956,
+      "lon": 12.2430723
+    },
+    {
+      "id": 36170399,
+      "name": "Dinslaken",
+      "nameEn": "Dinslaken",
+      "population": 67190,
+      "lat": 51.5623618,
+      "lon": 6.7345106
+    },
+    {
+      "id": 240078414,
+      "name": "Neuwied",
+      "nameEn": "Neuwied",
+      "population": 66455,
+      "lat": 50.4302393,
+      "lon": 7.466302
+    },
+    {
+      "id": 91187728,
+      "name": "Grevenbroich",
+      "nameEn": "Grevenbroich",
+      "population": 66314,
+      "lat": 51.0905783,
+      "lon": 6.5835365
+    },
+    {
+      "id": 30095912,
+      "name": "Lippstadt",
+      "nameEn": "Lippstadt",
+      "population": 66312,
+      "lat": 51.6747074,
+      "lon": 8.347194
+    },
+    {
+      "id": 255812771,
+      "name": "Plauen",
+      "nameEn": "Plauen",
+      "population": 65738,
+      "lat": 50.4950632,
+      "lon": 12.1346523
+    },
+    {
+      "id": 423889907,
+      "name": "Weimar",
+      "nameEn": "Weimar",
+      "population": 65611,
+      "lat": 50.9793301,
+      "lon": 11.3297921
+    },
+    {
+      "id": 240052342,
+      "name": "Herford",
+      "nameEn": "Herford",
+      "population": 64957,
+      "lat": 52.1152245,
+      "lon": 8.6711118
+    },
+    {
+      "id": 61278905,
+      "name": "Schwäbisch Gmünd",
+      "nameEn": "Schwäbisch Gmünd",
+      "population": 64416,
+      "lat": 48.7999036,
+      "lon": 9.7977584
+    },
+    {
+      "id": 240107170,
+      "name": "Kerpen",
+      "nameEn": "Kerpen",
+      "population": 63784,
+      "lat": 50.8696345,
+      "lon": 6.694734
+    },
+    {
+      "id": 29680830,
+      "name": "Neubrandenburg",
+      "nameEn": "Neubrandenburg",
+      "population": 63437,
+      "lat": 53.5574458,
+      "lon": 13.2602781
+    },
+    {
+      "id": 61205988,
+      "name": "Neu-Ulm",
+      "nameEn": "Neu-Ulm",
+      "population": 62610,
+      "lat": 48.3953489,
+      "lon": 10.0005211
+    },
+    {
+      "id": 3689245425,
+      "name": "Bergheim",
+      "nameEn": "Bergheim",
+      "population": 62454,
+      "lat": 50.9540457,
+      "lon": 6.6410004
+    },
+    {
+      "id": 35788459,
+      "name": "Dormagen",
+      "nameEn": "Dormagen",
+      "population": 62312,
+      "lat": 51.0934389,
+      "lon": 6.8416158
+    },
+    {
+      "id": 291222598,
+      "name": "Frankfurt (Oder)",
+      "nameEn": "Frankfurt (Oder)",
+      "population": 61969,
+      "lat": 52.3412273,
+      "lon": 14.549452
+    },
+    {
+      "id": 51296461,
+      "name": "Rosenheim",
+      "nameEn": "Rosenheim",
+      "population": 61844,
+      "lat": 47.8557873,
+      "lon": 12.1272983
+    },
+    {
+      "id": 3552100011,
+      "name": "Sindelfingen",
+      "nameEn": "Sindelfingen",
+      "population": 61669,
+      "lat": 48.7084162,
+      "lon": 9.0035455
+    },
+    {
+      "id": 240079235,
+      "name": "Herten",
+      "nameEn": "Herten",
+      "population": 60582,
+      "lat": 51.5942009,
+      "lon": 7.1368071
+    },
+    {
+      "id": 116125299,
+      "name": "Wesel",
+      "nameEn": "Wesel",
+      "population": 60070,
+      "lat": 51.6576909,
+      "lon": 6.617087
+    },
+    {
+      "id": 66477279,
+      "name": "Garbsen",
+      "nameEn": "Garbsen",
+      "population": 59912,
+      "lat": 52.4276606,
+      "lon": 9.6005102
+    },
+    {
+      "id": 240031660,
+      "name": "Hürth",
+      "nameEn": "Hürth",
+      "population": 59496,
+      "lat": 50.8807379,
+      "lon": 6.876568
+    },
+    {
+      "id": 35879165,
+      "name": "Sankt Augustin",
+      "nameEn": "Sankt Augustin",
+      "population": 59450,
+      "lat": 50.7752776,
+      "lon": 7.1895507
+    },
+    {
+      "id": 240057108,
+      "name": "Unna",
+      "nameEn": "Unna",
+      "population": 58856,
+      "lat": 51.5348835,
+      "lon": 7.689014
+    },
+    {
+      "id": 69457035,
+      "name": "Offenburg",
+      "nameEn": "Offenburg",
+      "population": 58769,
+      "lat": 48.4695984,
+      "lon": 7.9429235
+    },
+    {
+      "id": 30014270,
+      "name": "Euskirchen",
+      "nameEn": "Euskirchen",
+      "population": 58435,
+      "lat": 50.66129,
+      "lon": 6.7871681
+    },
+    {
+      "id": 1934380882,
+      "name": "Friedrichshafen",
+      "nameEn": "Friedrichshafen",
+      "population": 58099,
+      "lat": 47.6500279,
+      "lon": 9.4800858
+    },
+    {
+      "id": 240125507,
+      "name": "Stolberg",
+      "nameEn": "Stolberg",
+      "population": 57755,
+      "lat": 50.7702908,
+      "lon": 6.2295504
+    },
+    {
+      "id": 240068770,
+      "name": "Eschweiler",
+      "nameEn": "Eschweiler",
+      "population": 57534,
+      "lat": 50.8175029,
+      "lon": 6.2630894
+    },
+    {
+      "id": 240127287,
+      "name": "Görlitz",
+      "nameEn": "Görlitz",
+      "population": 57427,
+      "lat": 51.1563185,
+      "lon": 14.991018
+    },
+    {
+      "id": 24486765,
+      "name": "Stralsund",
+      "nameEn": "Stralsund",
+      "population": 57301,
+      "lat": 54.3096314,
+      "lon": 13.0820846
+    },
+    {
+      "id": 30755877,
+      "name": "Langenfeld",
+      "nameEn": "Langenfeld",
+      "population": 56982,
+      "lat": 51.1008952,
+      "lon": 6.9459377
+    },
+    {
+      "id": 240128258,
+      "name": "Bad Homburg vor der Höhe",
+      "nameEn": "Bad Homburg vor der Höhe",
+      "population": 56688,
+      "lat": 50.2283803,
+      "lon": 8.6130128
+    },
+    {
+      "id": 240106077,
+      "name": "Schweinfurt",
+      "nameEn": "Schweinfurt",
+      "population": 56625,
+      "lat": 50.0451485,
+      "lon": 10.2340647
+    },
+    {
+      "id": 240101756,
+      "name": "Greifswald",
+      "nameEn": "Greifswald",
+      "population": 56445,
+      "lat": 54.095791,
+      "lon": 13.3815238
+    },
+    {
+      "id": 240031846,
+      "name": "Hattingen",
+      "nameEn": "Hattingen",
+      "population": 56263,
+      "lat": 51.4007175,
+      "lon": 7.1862486
+    },
+    {
+      "id": 1409665812,
+      "name": "Hameln",
+      "nameEn": "Hamelin",
+      "population": 56260,
+      "lat": 52.1039941,
+      "lon": 9.3561569
+    },
+    {
+      "id": 240084735,
+      "name": "Göppingen",
+      "nameEn": "Göppingen",
+      "population": 55846,
+      "lat": 48.7031377,
+      "lon": 9.6541116
+    },
+    {
+      "id": 3131057148,
+      "name": "Waiblingen",
+      "nameEn": "Waiblingen",
+      "population": 55449,
+      "lat": 48.8325659,
+      "lon": 9.3163822
+    },
+    {
+      "id": 35788462,
+      "name": "Hilden",
+      "nameEn": "Hilden",
+      "population": 54737,
+      "lat": 51.1674417,
+      "lon": 6.9307271
+    },
+    {
+      "id": 240099245,
+      "name": "Baden-Baden",
+      "nameEn": "Baden-Baden",
+      "population": 54454,
+      "lat": 48.7610716,
+      "lon": 8.239959
+    },
+    {
+      "id": 240057351,
+      "name": "Passau",
+      "nameEn": "Passau",
+      "population": 54401,
+      "lat": 48.5748229,
+      "lon": 13.4609744
+    },
+    {
+      "id": 36141011,
+      "name": "Meerbusch",
+      "nameEn": "Meerbusch",
+      "population": 54318,
+      "lat": 51.2652237,
+      "lon": 6.6760958
+    },
+    {
+      "id": 2979014340,
+      "name": "Pulheim",
+      "nameEn": "Pulheim",
+      "population": 54200,
+      "lat": 50.9979888,
+      "lon": 6.8025409
+    },
+    {
+      "id": 1676735096,
+      "name": "Menden (Sauerland)",
+      "nameEn": "Menden (Sauerland)",
+      "population": 53354,
+      "lat": 51.43779,
+      "lon": 7.7953822
+    },
+    {
+      "id": 240125188,
+      "name": "Nordhorn",
+      "nameEn": "Nordhorn",
+      "population": 53285,
+      "lat": 52.4359731,
+      "lon": 7.0707659
+    },
+    {
+      "id": 71189198,
+      "name": "Gummersbach",
+      "nameEn": "Gummersbach",
+      "population": 53183,
+      "lat": 51.0277658,
+      "lon": 7.5630545
+    },
+    {
+      "id": 240052263,
+      "name": "Bergkamen",
+      "nameEn": "Bergkamen",
+      "population": 52517,
+      "lat": 51.6149389,
+      "lon": 7.6362876
+    },
+    {
+      "id": 240071660,
+      "name": "Ahlen",
+      "nameEn": "Ahlen",
+      "population": 52503,
+      "lat": 51.7627633,
+      "lon": 7.8909086
+    },
+    {
+      "id": 1686996669,
+      "name": "Neustadt an der Weinstraße",
+      "nameEn": "Neustadt an der Weinstraße",
+      "population": 52400,
+      "lat": 49.3536057,
+      "lon": 8.1360247
+    },
+    {
+      "id": 27070035,
+      "name": "Bad Kreuznach",
+      "nameEn": "Bad Kreuznach",
+      "population": 52385,
+      "lat": 49.8431642,
+      "lon": 7.8657658
+    },
+    {
+      "id": 240023675,
+      "name": "Lingen (Ems)",
+      "nameEn": "Lingen (Ems)",
+      "population": 52158,
+      "lat": 52.5224659,
+      "lon": 7.316584
+    },
+    {
+      "id": 240059176,
+      "name": "Langenhagen",
+      "nameEn": "Langenhagen",
+      "population": 51847,
+      "lat": 52.443118,
+      "lon": 9.738994
+    },
+    {
+      "id": 601805037,
+      "name": "Willich",
+      "nameEn": "Willich",
+      "population": 51846,
+      "lat": 51.2641433,
+      "lon": 6.5446958
+    },
+    {
+      "id": 240027502,
+      "name": "Wolfenbüttel",
+      "nameEn": "Wolfenbüttel",
+      "population": 51569,
+      "lat": 52.1625283,
+      "lon": 10.5348215
+    },
+    {
+      "id": 240127272,
+      "name": "Frechen",
+      "nameEn": "Frechen",
+      "population": 51080,
+      "lat": 50.9096219,
+      "lon": 6.8081935
+    },
+    {
+      "id": 28296828,
+      "name": "Ravensburg",
+      "nameEn": "Ravensburg",
+      "population": 50776,
+      "lat": 47.7811014,
+      "lon": 9.612468
+    },
+    {
+      "id": 240036785,
+      "name": "Elmshorn",
+      "nameEn": "Elmshorn",
+      "population": 50772,
+      "lat": 53.7532486,
+      "lon": 9.6524559
+    },
+    {
+      "id": 240109511,
+      "name": "Goslar",
+      "nameEn": "Goslar",
+      "population": 50681,
+      "lat": 51.9059936,
+      "lon": 10.4266284
+    },
+    {
+      "id": 240126844,
+      "name": "Emden",
+      "nameEn": "Emden",
+      "population": 50535,
+      "lat": 53.3670541,
+      "lon": 7.2058304
+    },
+    {
+      "id": 95638412,
+      "name": "Ibbenbüren",
+      "nameEn": "Ibbenbüren",
+      "population": 50438,
+      "lat": 52.2774772,
+      "lon": 7.7151417
+    },
+    {
+      "id": 240074382,
+      "name": "Speyer",
+      "nameEn": "Speyer",
+      "population": 50284,
+      "lat": 49.3165553,
+      "lon": 8.433615
+    }
+  ]
+}

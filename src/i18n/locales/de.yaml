@@ -1,0 +1,7 @@
+app:
+  title: Karte Deutschland
+map:
+  zoomTo: Zoom auf {{city}}
+  cities:
+    muenster: Münster
+    berlin: Berlin
