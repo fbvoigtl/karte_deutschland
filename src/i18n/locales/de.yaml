@@ -3,6 +3,7 @@ app:
 map:
   zoomTo: Zoom auf {{city}}
   minPopulation: Mind. Einwohner
+  populationGrid: Bevölkerungsraster 2021
   cities:
     muenster: Münster
     berlin: Berlin

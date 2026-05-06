@@ -3,6 +3,7 @@ app:
 map:
   zoomTo: Zoom to {{city}}
   minPopulation: Min. population
+  populationGrid: Population grid 2021
   cities:
     muenster: Münster
     berlin: Berlin

@@ -65,3 +65,7 @@ Hier werden alle öffentlichen API-Endpunkte gesammelt, die das Frontend nutzt.
 - **Overpass API (OpenStreetMap)** – `https://overpass-api.de/api/interpreter`
   Liefert deutsche Städte/Ortschaften (`place=city|town`) mit `population`-Tag inkl. Koordinaten und Namen (DE/EN). Filterung auf Bevölkerung ≥ 50.000 client-seitig. Verwendet in [`src/api/germanCities.js`](src/api/germanCities.js).
   Doku: <https://wiki.openstreetmap.org/wiki/Overpass_API> · Nutzungsbedingungen: <https://operations.osmfoundation.org/policies/>
+
+- **Eurostat / GISCO WMS** – `https://gisco-services.ec.europa.eu/maps/wms`
+  WMS-Layer `PopulationGrid2021` (Eurostat Census 2021 total population grid). Als Toggle-Overlay zur Laufzeit eingebunden in [`src/components/MapView.jsx`](src/components/MapView.jsx).
+  Doku: <https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/geostat> · Lizenz: © European Commission – GISCO

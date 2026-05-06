@@ -6,6 +6,7 @@ import View from 'ol/View';
 import TileLayer from 'ol/layer/Tile';
 import VectorLayer from 'ol/layer/Vector';
 import OSM from 'ol/source/OSM';
+import TileWMS from 'ol/source/TileWMS';
 import VectorSource from 'ol/source/Vector';
 import Feature from 'ol/Feature';
 import Point from 'ol/geom/Point';
@@ -28,10 +29,11 @@ const cityStyle = (feature) =>
     }),
   });
 
-export default function MapView({ cities, zoomTarget }) {
+export default function MapView({ cities, zoomTarget, showPopulationGrid }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const citiesSourceRef = useRef(null);
+  const popGridLayerRef = useRef(null);
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -40,10 +42,27 @@ export default function MapView({ cities, zoomTarget }) {
     const citiesSource = new VectorSource();
     citiesSourceRef.current = citiesSource;
 
+    const popGridLayer = new TileLayer({
+      source: new TileWMS({
+        url: 'https://gisco-services.ec.europa.eu/maps/wms',
+        params: {
+          LAYERS: 'PopulationGrid2021',
+          STYLES: '',
+          FORMAT: 'image/png',
+          TRANSPARENT: true,
+        },
+        attributions: '© European Commission – GISCO',
+      }),
+      visible: false,
+      opacity: 0.75,
+    });
+    popGridLayerRef.current = popGridLayer;
+
     mapRef.current = new Map({
       target: containerRef.current,
       layers: [
         new TileLayer({ source: new OSM() }),
+        popGridLayer,
         new VectorLayer({ source: citiesSource, style: cityStyle }),
       ],
       view: new View({
@@ -56,6 +75,7 @@ export default function MapView({ cities, zoomTarget }) {
       mapRef.current?.setTarget(undefined);
       mapRef.current = null;
       citiesSourceRef.current = null;
+      popGridLayerRef.current = null;
     };
   }, []);
 
@@ -73,6 +93,10 @@ export default function MapView({ cities, zoomTarget }) {
     source.clear();
     source.addFeatures(features);
   }, [cities]);
+
+  useEffect(() => {
+    popGridLayerRef.current?.setVisible(!!showPopulationGrid);
+  }, [showPopulationGrid]);
 
   useEffect(() => {
     if (!zoomTarget) return;

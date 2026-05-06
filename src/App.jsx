@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Box, Flex, Heading } from '@chakra-ui/react';
+import { Box, Flex, FormLabel, Heading, HStack, Switch } from '@chakra-ui/react';
 import { useTranslation } from 'react-i18next';
 import MapView from './components/MapView.jsx';
 import LanguageSwitcher from './components/LanguageSwitcher.jsx';
@@ -15,6 +15,7 @@ export default function App() {
   const { t } = useTranslation();
   const [minPop, setMinPop] = useState(MIN_POP);
   const [zoomTarget, setZoomTarget] = useState(null);
+  const [showPopGrid, setShowPopGrid] = useState(false);
 
   const filtered = useMemo(
     () => ALL_CITIES.filter((c) => c.population >= minPop),
@@ -45,11 +46,34 @@ export default function App() {
           min={MIN_POP}
           max={MAX_POP}
         />
+        <HStack spacing={2}>
+          <Switch
+            id="pop-grid-toggle"
+            isChecked={showPopGrid}
+            onChange={(e) => setShowPopGrid(e.target.checked)}
+            colorScheme="orange"
+            size="sm"
+          />
+          <FormLabel
+            htmlFor="pop-grid-toggle"
+            fontSize="sm"
+            fontWeight="normal"
+            mb={0}
+            whiteSpace="nowrap"
+            cursor="pointer"
+          >
+            {t('map.populationGrid')}
+          </FormLabel>
+        </HStack>
         <LanguageSwitcher />
       </Flex>
       <Flex flex="1" minH={0}>
         <Box flex="1" position="relative">
-          <MapView cities={filtered} zoomTarget={zoomTarget} />
+          <MapView
+            cities={filtered}
+            zoomTarget={zoomTarget}
+            showPopulationGrid={showPopGrid}
+          />
         </Box>
         <CityList cities={filtered} onSelectCity={handleSelectCity} />
       </Flex>
